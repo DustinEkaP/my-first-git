@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+	printf("Choose 1:\n1. Name \n2. Favorite Programming Language\n");
+	int pilihan;
+	scanf("%d", &pilihan);
+	if (pilihan == 1) {
+		printf("Dustin Eka Pramudita\n");
+	} else if (pilihan == 2) {
+		printf("C++\n");
+
+	} else {
+		printf ("Not an Option\n");
+	}
+
+	return 0;
+}
